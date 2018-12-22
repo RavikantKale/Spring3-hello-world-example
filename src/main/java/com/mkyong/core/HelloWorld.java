@@ -2,7 +2,7 @@ package com.mkyong.core;
 
 /**
  * Spring bean
- * 
+ * This is test comment
  */
 public class HelloWorld {
 	private String name;
