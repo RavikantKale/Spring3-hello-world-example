@@ -36,16 +36,17 @@
 
 	</dependencies>
 		
-	 <distributionManagement>
-    	<repository>
-      <id>releases</id>
-		
-      <url>http://localhost:8081/nexus/content/repositories/maven-releases/</url>
-    </repository>
-    <snapshotRepository>
-      <id>maven-snapshots</id>
-      <url>http://localhost:8081/repository/maven-snapshots/</url>
-    </snapshotRepository>
+	<distributionManagement>
+    	 <repository>
+          <id>releases</id>
+	  <name>Internal_Release</name>
+          <url>http://localhost:8081/repository/sample-rel/</url>
+         </repository>
+         <snapshotRepository>
+          <id>snapshot</id>
+	  <name>Internal_snapshot_release</name>
+          <url>http://localhost:8081/repository/sample-snap/</url>
+         </snapshotRepository>
   </distributionManagement>
 	
 </project>
