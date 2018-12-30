@@ -45,7 +45,7 @@
          <snapshotRepository>
           <id>snapshot</id>
 	  <name>Internal_Snapshot</name>
-          <url>http://localhost:8081/repository/sample-snap/</url>
+          <url>http://localhost:8081/repository/maven-snapshots/</url>
          </snapshotRepository>
   </distributionManagement>
 	
