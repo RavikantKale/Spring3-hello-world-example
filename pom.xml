@@ -38,14 +38,14 @@
 		
 	<distributionManagement>
     	 <repository>
-          <id>release</id>
+          <id>snapshot</id>
 	  <name>Internal_Release</name>
           <url>http://localhost:8081/repository/sample-rel/</url>
          </repository>
          <snapshotRepository>
           <id>snapshot</id>
 	  <name>Internal_Snapshot</name>
-          <url>http://localhost:8081/repository/maven-snapshots/</url>
+          <url>http://localhost:8081/repository/sample-snap/</url>
          </snapshotRepository>
   </distributionManagement>
 	
