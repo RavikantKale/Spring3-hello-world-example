@@ -38,13 +38,13 @@
 		
 	<distributionManagement>
     	 <repository>
-          <id>snapshot</id>
+          <id>release</id>
 	  <name>Internal_Release</name>
           <url>http://localhost:8081/repository/sample-rel/</url>
          </repository>
          <snapshotRepository>
           <id>snapshot</id>
-	  <name>Internal_snapshot_release</name>
+	  <name>Internal_Snapshot</name>
           <url>http://localhost:8081/repository/sample-snap/</url>
          </snapshotRepository>
   </distributionManagement>
