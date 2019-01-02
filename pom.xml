@@ -4,7 +4,7 @@
 	<groupId>com.mkyong.core</groupId>
 	<artifactId>Spring3Example</artifactId>
 	<packaging>jar</packaging>
-	<version>1.1-snapshot</version>
+	<version>1.1-SNAPSHOT</version>
 	<name>Spring3Example</name>
 	<url>http://maven.apache.org</url>
 
@@ -38,7 +38,7 @@
 		
 	<distributionManagement>
     	 <repository>
-          <id>release</id>
+          <id>snapshot</id>
 	  <name>Internal_Release</name>
           <url>http://localhost:8081/repository/sample-rel/</url>
          </repository>
